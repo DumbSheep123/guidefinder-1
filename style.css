@@ -24,6 +24,16 @@
    border-radius: 20%;
    margin-left: 60%;
 }
+.gobutton:hover {
+   color: blue;
+}
+.gohyperlink:hover {
+   color: blue;
+}
 .userselect {
    margin-left: 0%;
+   padding: 1%;
+}
+#sectionstyle {
+   vertical-align: middle;
 }
