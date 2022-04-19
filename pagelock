@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<div id="pagelock">
+<img id="pagelockicon" src="https://static.vecteezy.com/system/resources/previews/000/566/954/large_2x/lock-icon-vector.jpg">
+<p id="pglocktxt">This page has been <b>LOCKED</b></p>
+</div>
+</body>
+
+<style>
+#pagelock {
+  text-align: center;
+}
+#pagelockicon {
+  width: auto;
+  height: 300px;
+}
+#pglocktxt {
+  font-size: 30px;
+}
+</style>
+</html>
