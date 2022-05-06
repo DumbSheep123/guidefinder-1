@@ -7,7 +7,7 @@
    width: 15%;
    margin: 0;
    position: absolute;
-   top: 0px;
+   top: 39px;
 }
 #credits {
  position: absolute;
@@ -26,4 +26,12 @@
 }
 .userselect {
    margin-left: 0%;
+}
+#updatenotify {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(238, 238, 73);
+  width: 100%;
+  padding: 10px;
 }
