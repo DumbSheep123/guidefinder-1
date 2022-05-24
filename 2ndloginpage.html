@@ -8,13 +8,25 @@
     <link href="./styleforpinpage.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>Guide Finder | Home</title>
+    <script>
+function pinInput(valNum) {
+  valNum = parseFloat(valNum);
+  
+  if (valNum === 12345){
+  window.location.href = "google.com";
+  }
+  else if (valNum === 2){
+  window.location.href = "google.com";
+  }
+}
+</script>
   </head>
   <body>
     <img id="guidefinderlogo" src="https://raw.githubusercontent.com/xAbliv/Test/main/guidefinderlogo.png">
       <div id="usernameinfo">
         <h1 id="heading1">Please input your PIN</h1>
           <form action="check.html" method="GET"></form>
-            <input type="number" class="usernameinput" placeholder="Input your PIN here" required>    
+            <input type="number" class="usernameinput" placeholder="Input your PIN here" oninput="pinInput(this.value)" onchange="pinInput(this.value)" required>    
           </form>  
       </div>
       <p id="credits">Guide Finder created by Piecrustmangucci</p>
