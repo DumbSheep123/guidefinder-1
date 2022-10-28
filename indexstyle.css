@@ -7,7 +7,7 @@
    width: 15%;
    margin: 0;
    position: absolute;
-   top: 39px;
+   top: 0px; /*use 39px if using update notify, 0px if not*/ 
 }
 #credits {
  position: absolute;
