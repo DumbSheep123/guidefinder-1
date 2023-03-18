@@ -6,25 +6,25 @@
   <meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home - Guidefinder</title>
-  <script src="script.js"></script>
+  <!-- <script src="script.js"></script> -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <form>
     <label for="dropdown">Select Your Username</label>
-    <select id="dropdown" required>
+    <select onchange="location = this.value;" id="dropdown" required>
       <option value="" disabled selected></option>
       <optgroup label="Select One">
-        <option value="pie">Piecrustmangucci</option>
-        <option value="malla">Mallarows</option>
-        <option value="yandrak">MrYandrak_s</option>
-        <option value="joni">Jonirei13</option>
+        <option value="/pie/training">Piecrustmangucci</option>
+        <option value="/mallarows/training">Mallarows</option>
+        <option value="/yandrak/training">MrYandrak_s</option>
+        <option value="/joni/training">Jonirei13</option>
       </optgroup>
     </select>
     <input type="submit" value="Go >">
   </form>
 </body>
-<script src="script.js"></script>
+<!-- <script src="script.js"></script> -->
 
 </html>
