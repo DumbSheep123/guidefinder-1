@@ -1,4 +1,4 @@
-let userMap = {
+let map = {
   "pie": "/pietrainingguide",
   "malla": "/malltrainingguide",
   "yandrak": "/yandraktrainingguide",
@@ -16,8 +16,8 @@ if (form) {
     event.preventDefault();
     var dropdown = document.querySelector("#dropdown");
     var selectedOption = dropdown.options[dropdown.selectedIndex].value;
-    if (selectedOption in userMap) {
-      window.location.href = userMap[selectedOption];
+    if (selectedOption in map) {
+      window.location.href = map[selectedOption];
     } else if (selectedOption in newUserMap) {
       window.location.href = newUserMap[selectedOption];
     }
