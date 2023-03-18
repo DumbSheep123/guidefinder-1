@@ -5,6 +5,11 @@ let userMap = {
   "joni": "/jonitrainingguide"
 };
 
+let newUserMap = {
+  "john": "/johntrainingguide",
+  "jane": "/janetrainingguide"
+};
+
 var form = document.querySelector("form");
 if (form) {
   form.addEventListener("submit", function (event) {
@@ -13,6 +18,8 @@ if (form) {
     var selectedOption = dropdown.options[dropdown.selectedIndex].value;
     if (selectedOption in userMap) {
       window.location.href = userMap[selectedOption];
+    } else if (selectedOption in newUserMap) {
+      window.location.href = newUserMap[selectedOption];
     }
   });
 }
