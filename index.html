@@ -1,36 +1,29 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "e879c0kztu");
-    </script>
-    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/xAbliv/guidefinder/main/guidefinderfavicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="./indexstyle.css" rel="stylesheet">
-      <title>Home</title>
-  </head>
-  <body>
-  <!--
-  <div id="updatenotify">GUIDEFINDER UPDATE!  Added Customized RPC guide for all users!</div>
--->
-    <img id="guidefinderlogo" src="https://raw.githubusercontent.com/xAbliv/guidefinder/main/Screenshot%202022-03-14%201.54.32%20PM.png">
-         <h1 id="selectuserinfo">Select your username</h1>
-         <div class="useroptions"></div>
-           <hr>
-             <p class="userselect">Piecrustmangucci <span class="gobutton"><a style="color:blue;" class="gohyperlink" href="./pietrainingguide">Select</a> <b>&#8250;</b></a></span></p>
-           <hr>
-             <p class="userselect">Mallarows&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="gobutton"><a style="color:blue;" class="gohyperlink" href="./malltrainingguide">Select</a> <b>&#8250;</b></a></span></p>
-           <hr>
-             <p class="userselect">MrYandrak_s&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="gobutton"><a style="color:blue;" class="gohyperlink" href="./yandraktrainingguide">Select</a> <b>&#8250;</b></a></span></p>
-           <hr>
-             <p class="userselect">Jonirei13&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="gobutton"><a style="color:blue;" class="gohyperlink" href="./jonitrainingguide">Select</a> <b>&#8250;</b></a></span></p>
-           <hr>
-             <p id="credits">Guide Finder created by Piecrustmangucci</p>
-    </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Guidefinder</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <form>
+    <label for="dropdown">Select Your Username</label>
+    <select id="dropdown" required>
+      <option value="" disabled selected></option>
+      <optgroup label="Popular Stations">
+        <option value="pie">Piecrustmangucci</option>
+        <option value="malla">Mallarows</option>
+        <option value="yandrak">MrYandrak_s</option>
+        <option value="joni">Jonirei13</option>
+      </optgroup>
+    </select>
+    <input type="submit" value="Go >">
+  </form>
+</body>
+<script src="/script.js"></script>
+
 </html>
