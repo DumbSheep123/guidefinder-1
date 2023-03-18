@@ -1,4 +1,4 @@
-const userMap = {
+let userMap = {
   "pie": "/pietrainingguide",
   "malla": "/malltrainingguide",
   "yandrak": "/yandraktrainingguide",
